@@ -18,7 +18,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     if name:
-        return func.HttpResponse(f"Hello {name}!")
+        return func.HttpResponse(f"Hello {name} via pipelines!")
     else:
         return func.HttpResponse(
              "Please pass a name on the query string or in the request body",
