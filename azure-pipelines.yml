@@ -30,4 +30,4 @@ steps:
   inputs:
     azureSubscription: 'internalsub'
     appType: functionAppLinux
-    appName: rifiel-py
+    appName: rifiel-py-devops
