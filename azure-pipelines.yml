@@ -28,6 +28,6 @@ steps:
 
 - task: AzureFunctionApp@1
   inputs:
-    azureSubscription: 
+    azureSubscription: 'internalsub'
     appType: functionAppLinux
     appName: rifiel-py
